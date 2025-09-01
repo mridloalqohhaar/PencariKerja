@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #5d7f6e;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #ffd369;
+}
+
+.profile-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-left: 20px;
+}
+
+/* Login Box */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-box {
+  background: #4a6c64;
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.login-box label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-size: 14px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  background: #7ea795;
+  color: #fff;
+  outline: none;
+}
+
+.login-box input::placeholder {
+  color: #cfdcd6;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #7ea795;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #659480;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.signup-text a {
+  color: #2d9cdb;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #5d7f6e;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-size: 12px;
+}

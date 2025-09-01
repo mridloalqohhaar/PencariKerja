@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #84AE92;
+  color: #fff;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #1e3d39;
+  justify-content: space-between;
+  text-wrap-mode: pretty;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(180deg, #7ea795, #3f6d67);
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 700px;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+.hero-text span {
+  color: #5A827E;
+  font-weight: bold;
+  font-size: 32px;
+  font-style: oblique;
+ 
+}
+
+.hero-text p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.search-bar {
+  margin-top: 20px;
+  display: flex;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 350px;
+  border: 2px solid #000;
+}
+
+.search-bar input {
+  border: none;
+  padding: 12px;
+  flex: 1;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background: #000;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.hero img {
+  max-width: 500px;
+}
+
+/* Categories */
+.categories {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #fff;
+}
+.categories p {
+  font-size: 14px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.category {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Recommended Jobs */
+.jobs {
+  padding: 40px 20px;
+}
+
+.jobs h2 {
+  font-size: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #ffd369;
+}
+
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.job-card {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.job-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.job-card p {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.salary {
+  font-weight: bold;
+  color: #2f5d58;
+  font-size: 14px;
+}
+
+/*services section */
+
+.services {
+    background-color: #5A827E;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.service-box {
+    background-color: #62A8AC;
+    height: 250px;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease;    
+}
+.service-box:hover{
+    background: transparent;
+    color: black;
+    transform: scale(1.03);
+    border: 1px solid #84AE92;
+}
+.services-box .services-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 1rem;
+}
+
+.service-info {
+    padding: 20px;
+}
+
+.services-info, .service-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: auto;
+    margin-bottom: 1rem;
+}
+.services-info p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    max-height: 100px;
+    margin: auto;
+}
+@media (max-width:1000px) {
+    section {
+        padding: 10rem 3% 2 rem;
+    }
+    .service {
+        padding-bottom: 7rem;
+    }
+}
+@media (max-width:1200px) {
+    .service h2 {
+        margin-bottom: 3rem;
+    }
+    .services-container {
+        grid-template-columns: repeat(1,5fr);
+    }
+}
+
+
+
+
